@@ -1,0 +1,521 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #0C0C0C;
+}
+
+.bar-info {
+  background: #181818;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 18.5px 0;
+  width: 100%;
+  height: 56px;
+  box-sizing: border-box;
+}
+
+.container-location, .container-sms, .container-idioma, .container-contact {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  box-sizing: border-box;
+  margin-left: 20px;
+}
+
+.location-icon, .sms-icon, .idioma-jpg, .face-icon, .insta-icon {
+  display: flex;
+  width: 18px;
+  height: 18px;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.location-jpg {
+  width: 13.3px;
+  height: 15.4px;
+}
+
+.location-text, .sms-text, .idioma-text, .contact-text {
+  overflow-wrap: break-word;
+  font-family: 'Manrope';
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.3px;
+  color: #FFFFFF;
+  margin-left: 5px;
+}
+
+.sms-jpg {
+  width: 15px;
+  height: 12.8px;
+}
+
+.idioma-jpg {
+  background: url('../img/bandera.png') 50% / cover no-repeat;
+  width: 14px;
+  height: 14px;
+}
+
+.flecha-icon {
+  display: flex;
+  width: 7.1px;
+  height: 3.5px;
+  box-sizing: border-box;
+  margin-left: 5px;
+}
+
+.flecha-jpg {
+  width: 7.1px;
+  height: 3.5px;
+}
+
+.face-icon, .insta-icon {
+  width: 15px;
+  height: 15px;
+  margin: 0 5px;
+}
+
+.face-jpg {
+  width: 15px;
+  height: 14.9px;
+}
+
+.insta-jpg {
+  width: 15px;
+  height: 15px;
+}
+
+.nav-bar {
+  background: #181818;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 33px 104px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  width: 223px;
+  box-sizing: border-box;
+}
+
+.logo-jpg {
+  width: 803.8px;
+  height: 51px;
+}
+
+.home-container-plus {
+  display: flex;
+  align-items: center;
+  padding-right: 18px;
+  box-sizing: border-box;
+}
+
+.home-container {
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  margin-right: 20px;
+}
+
+.home-icon {
+  display: flex;
+  width: 24px;
+  height: 24px;
+  box-sizing: border-box;
+}
+
+.home-jpg {
+  width: 20px;
+  height: 20px;
+}
+
+.home-text {
+  overflow-wrap: break-word;
+  font-family: 'Manrope';
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 0.4px;
+  color: #F0B41E;
+  margin-left: 5px;
+}
+
+.container-plus2 {
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.about-us-text, .join-us-text, .support-text, .contact-text {
+  overflow-wrap: break-word;
+  font-family: 'Manrope';
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 0.4px;
+  color: #FFFFFF;
+  margin-right: 20px;
+}
+
+.contact-container {
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.slider-icon {
+  display: flex;
+  width: 24px;
+  height: 24px;
+  box-sizing: border-box;
+  margin-left: 5px;
+}
+
+.slider-jpg {
+  width: 10px;
+  height: 5px;
+}
+
+.login-container {
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.login-button {
+  border-radius: 12px;
+  background: #F0B41E;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 11px 20px;
+  box-sizing: border-box;
+}
+
+.login-text {
+  overflow-wrap: break-word;
+  font-family: 'Manrope';
+  font-weight: 800;
+  font-size: 20px;
+  letter-spacing: -0.4px;
+  color: #0C0C0C;
+}
+
+.content {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.fondoplus {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.t1 {
+  position: relative;
+  margin: 20px 80px;
+  align-self: flex-start;
+  width: 60%; /* Ajusta este valor según sea necesario */
+  box-sizing: border-box;
+  z-index: 1;
+}
+
+.t1-text {
+  overflow-wrap: break-word;
+  font-family: 'Plus Jakarta Sans';
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 1.25;
+  color: #F0B41E;
+  margin-top: 20px; /* Añadir margen superior */
+}
+
+.t2 {
+  overflow-wrap: break-word;
+  font-family: 'Plus Jakarta Sans';
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 1.25;
+  color: #FFFFFF;
+}
+
+.t3 {
+  width: 60%; /* Ajusta este valor según sea necesario */
+  overflow-wrap: break-word;
+  font-family: 'Plus Jakarta Sans';
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 1.4;
+  color: #8D9298;
+}
+
+.end-container {
+  margin-top: 85px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%; /* Cambiado a 100% */
+  box-sizing: border-box;
+}
+.apply-container {
+  margin: 58px 0 103px 0;
+  margin-left: 80px !important;
+  display: flex;
+  width: 236px;
+  height: fit-content;
+  box-sizing: border-box;
+}
+
+.apply-button {
+  border-radius: 70px;
+  background: #F0B41E;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.apply-container-text {
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.apply-text {
+  overflow-wrap: break-word;
+  font-family: 'Plus Jakarta Sans';
+  font-weight: 700;
+  font-size: 24px;
+  letter-spacing: -0.5px;
+  line-height: 1.4;
+  color: #010205;
+}
+
+.circule-flecha-icon {
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  box-sizing: border-box;
+}
+
+.circule-flecha-jpg {
+  width: 26.7px;
+  height: 26.7px;
+}
+
+.end-text-container {
+  background: #181818;
+  position: relative;
+  padding: 37.5px 62px;
+  width: 750px;
+  height: 195px;
+  box-sizing: border-box;
+  margin-left: auto; /* Pegar a la derecha */
+}
+
+.linea {
+  background: #FFFFFF;
+  width: 150px;
+  height: 0px;
+}
+
+.end-text {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  translate: -50% -50%;
+  overflow-wrap: break-word;
+  font-family: 'Plus Jakarta Sans';
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.48;
+  color: #FFFFFF;
+}
+
+.content2 {
+  margin-top: -20px !important;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.t1-2 {
+    margin-top: 10% !important;
+    position: relative;
+    margin: 20px 80px;
+    align-self: flex-start;
+    width: 60%; /* Ajusta este valor según sea necesario */
+    box-sizing: border-box;
+    z-index: 1;
+  }
+  .contact {
+    display: flex;
+    flex-direction: row;
+    margin-top: 15%;
+    margin-left: 5%;
+    margin-bottom: 2%;
+    align-items: center;
+    align-self: center;
+  }
+  
+  .card {
+    margin-right: 20px; /* Ajusta el margen según sea necesario */
+  }
+  
+  .form-container {
+    margin-left: 5%;
+    display: flex;
+    flex-direction: column;
+    width: 731px;
+    box-sizing: border-box;
+  }
+  
+  .form-title-text {
+    margin-bottom: 20px;
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: 'Manrope';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 2.48;
+    color: #FFFFFF;
+  }
+  
+  .form-subcontainer {
+    margin-bottom: 17px;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  
+  .form-subcontainer-1, .form-subcontainer-2 {
+    margin-bottom: 35px;
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  
+  .name-container, .phone-container, .email-container, .subject-container {
+    border-radius: 30px;
+    margin-right: 48px;
+    display: flex;
+    flex-direction: column;
+    width: 335px;
+    box-sizing: border-box;
+  }
+  
+  .name-text, .phone-text, .email-text, .subject-text, .message-text {
+    margin: 0 7.1px 4px 7.1px;
+    display: inline-block;
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: 'Manrope';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.714;
+    color: #FFFFFF;
+  }
+  
+  .name-input, .phone-input, .email-input, .subject-input, .message-input {
+    border-radius: 30px;
+    border: 1px solid #55585B;
+    background: #181818;
+    padding: 15px 30px;
+    width: 100%; /* Ajusta el ancho según sea necesario */
+    box-sizing: border-box;
+    color: #FFFFFF;
+  }
+  
+  .message-input {
+    padding: 26px 23px 148px 23px;
+  }
+  
+  .name-input::placeholder, .phone-input::placeholder, .email-input::placeholder, .subject-input::placeholder, .message-input::placeholder {
+    color: #55585B;
+    font-family: 'Manrope';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.714;
+  }
+  
+  .subtext-final {
+    margin: 0 7px 41px 7px;
+    display: inline-block;
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: 'Manrope';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.133;
+    color: #F0B41E;
+  }
+  
+  .send-button {
+    border-radius: 70px;
+    background: #F0B41E;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 23px;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  
+  .send-button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    height: 34px;
+    margin-right: 10px; /* Espacio entre texto e icono */
+  }
+  
+  .send-button-text {
+    font-family: 'Manrope';
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 1.4;
+    color: #0C0C0C;
+    white-space: nowrap; /* Evita que el texto se divida en líneas */
+  }
+  
+  .send-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    background: #0C0C0C;
+    border-radius: 50%;
+    box-sizing: border-box;
+  }
+  
+  .send-jpg {
+    width: 24px;
+    height: 24px;
+  }
+  
+  
