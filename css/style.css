@@ -3,6 +3,47 @@ body {
   padding: 0;
   background-color: #0C0C0C;
 }
+.container-idioma {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  box-sizing: border-box;
+  margin-left: 20px;
+}
+
+#language-select {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 16px;
+  font-family: 'Manrope', sans-serif;
+  appearance: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  outline: none; /* Elimina el borde de enfoque en algunos navegadores */
+}
+
+#language-select option {
+  background-color: rgba(0, 0, 0, 0.8); /* Fondo semitransparente */
+  color: white; /* Color del texto de las opciones */
+}
+
+#language-select option:hover {
+  background-color: rgba(0, 0, 0, 1); /* Fondo más oscuro cuando el ratón está sobre la opción */
+}
+
+.flecha-icon {
+  display: flex;
+  align-items: center;
+}
+
+.flecha-jpg {
+  width: 12px; /* Ajusta el tamaño según sea necesario */
+  height: 12px; /* Ajusta el tamaño según sea necesario */
+  margin-left: 5px; /* Espacio entre el select y la flecha */
+}
+
+
 
 .bar-info {
   background: #181818;
@@ -15,7 +56,7 @@ body {
   box-sizing: border-box;
 }
 
-.container-location, .container-sms, .container-idioma, .container-contact {
+.container-location, .container-sms, .container-contact {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -518,4 +559,64 @@ body {
     height: 24px;
   }
   
-  
+.section2{
+  display: flex;
+flex-direction: row;
+width: 1271px;
+box-sizing: border-box;
+margin-left: 60px;
+margin-top: 40px;
+margin-bottom: 80px;
+}
+
+.section2-info-container {
+  margin: 35px 201.2px 30px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.section2-title-container{
+  margin-bottom: 23px;
+  display: flex;
+  box-sizing: border-box;
+}
+
+.section2-text {
+  overflow-wrap: break-word;
+  font-family: 'Plus Jakarta Sans';
+  font-weight: 600;
+  font-size: 72px;
+  letter-spacing: -2.2px;
+  line-height: 1.1;
+  color: #FFFFFF;
+}
+
+.section2-subtext {
+  margin-right: 50.9px;
+  overflow-wrap: break-word;
+  font-family: 'Plus Jakarta Sans';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.8;
+  color: #8D9298;
+}
+
+.section2-card {
+  position: relative;
+  display: flex;
+  width: 443.5px;
+  height: 333px;
+  box-sizing: border-box;
+}
+
+.section2-cardjpg {
+  backdrop-filter: blur(42px);
+  border-radius: 40px;
+  background: #F0F0F0;
+  position: relative;
+  display: flex;
+  padding: 81px 21.6px 33.7px 35.5px;
+  box-sizing: border-box;
+}
