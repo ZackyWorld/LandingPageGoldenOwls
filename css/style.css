@@ -449,6 +449,15 @@ body {
     width: fit-content;
     box-sizing: border-box;
   }
+
+  .contac-title-plus{
+    overflow-wrap: break-word;
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.25;
+    color: #FFFFFF;
+  }
   
   .form-subcontainer-1, .form-subcontainer-2 {
     margin-bottom: 35px;
@@ -619,4 +628,318 @@ margin-bottom: 80px;
   display: flex;
   padding: 81px 21.6px 33.7px 35.5px;
   box-sizing: border-box;
+}
+
+.section-benefits {
+  margin-left: 42.5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: fit-content;
+  box-sizing: border-box;
+}
+
+.benefits-title {
+  margin: 0 0.7px 18px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Plus Jakarta Sans';
+  font-weight: 700;
+  font-size: 40px;
+  color: #FFFFFF;
+}
+
+.financial-container, .timefreedom-container, .growthpotencial-container {
+  border-radius: 20px;
+  background: #313335;
+  margin-bottom: 38px;
+  display: flex;
+  flex-direction: row;
+  padding: 15px 0 12px 32px;
+  width: 941px;
+  box-sizing: border-box;
+}
+
+.financial-logo, .timefreedom-logo, .growthpotencial-logo {
+  border-radius: 25.5px;
+  background: #181818;
+  position: relative;
+  margin: 0 29px 3px 0;
+  display: flex;
+  padding: 10px 10px 11px 11px;
+  width: 51px;
+  height: 51px;
+  box-sizing: border-box;
+}
+
+.financial-img, .timefreedom-img, .growthpotencial-img {
+  display: flex;
+  width: 30px;
+  height: 30px;
+  box-sizing: border-box;
+}
+
+.financial-icon, .timefreedom-icon, .growthpotencial-icon {
+  width: 30px;
+  height: 30px;
+}
+
+.financial-subcontainer, .timefreedom-subcontainer, .growthpotencial-subcontainer {
+  position: relative;
+  margin-top: 4px;
+  width: 456px;
+  box-sizing: border-box;
+}
+
+.financial-title, .timefreedom-title, .growthpotencial-title {
+  display: block;
+  overflow-wrap: break-word;
+  font-family: 'Plus Jakarta Sans';
+  font-weight: 600;
+  font-size: 24px;
+  letter-spacing: -0.7px;
+  line-height: 1.3;
+  color: #FFFFFF;
+  margin-bottom: 4px; /* Reducir el margen inferior */
+}
+
+.financial-subtext, .timefreedom-subtext, .growthpotencial-subtext {
+  display: block;
+  overflow-wrap: break-word;
+  font-family: 'Plus Jakarta Sans';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.4; /* Ajustar la altura de la línea */
+  color: #8D9298;
+}
+
+.section2-2{
+  display: flex;
+flex-direction: row;
+width: 1271px;
+box-sizing: border-box;
+margin-left: 15%;
+margin-top: 40px;
+margin-bottom: 80px;
+}
+.memorable-section {
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  background: #181818;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 83.5px 81.3px 34px 79px;
+  width: 1510px;
+  box-sizing: border-box;
+}
+
+.memorable-container1 {
+  margin: 0 0 38px 1px;
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  box-sizing: border-box;
+}
+
+.memorable-subcontainer {
+  margin-right: 121.1px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.memorable-title {
+  margin-bottom: 31.5px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Plus Jakarta Sans';
+  font-weight: 600;
+  font-size: 56px;
+  letter-spacing: -1.7px;
+  line-height: 1.1;
+  color: #FFFFFF;
+}
+
+.memorable-subtext1{
+  margin-right: 47px;
+  overflow-wrap: break-word;
+  font-family: 'Plus Jakarta Sans';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.8;
+  color: #878C91;
+}
+
+.memorable-subtext2 {
+  margin-right: 47px;
+  overflow-wrap: break-word;
+  font-family: 'Plus Jakarta Sans';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.8;
+  color: #878C91;
+  max-width: 500px; /* Ajusta según sea necesario */
+}
+
+
+.memorable-carrusel {
+  margin-right: 1.7px;
+  display: flex;
+  flex-direction: row;
+  column-gap: 36px;
+  width: 1278px;
+  box-sizing: border-box;
+}
+
+.carrusel-img {
+  border-radius: 30px;
+  overflow: hidden;
+  position: relative;
+  width: 279px; /* Ajusta según sea necesario */
+  height: 532px; /* Ajusta según sea necesario */
+}
+
+.carrusel-jpg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.Bannermes{
+margin-top: 20px;
+margin-left: 5%;
+margin-bottom: 20px;
+}
+.team-container {
+  background: #0C0C0C;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 83.5px 81.3px 34px 79px;
+  width: 1510px;
+  box-sizing: border-box;
+}
+
+.team-subcontainer {
+  margin-bottom: 45px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.team-nav-text {
+  display: flex;
+  justify-content: space-between; /* Alinea los elementos a los extremos */
+  align-items: center; /* Centra verticalmente los elementos */
+  width: 100%; /* Ajusta el ancho para ocupar el espacio disponible */
+  box-sizing: border-box;
+}
+
+.team-title {
+  font-family: 'Plus Jakarta Sans';
+  font-weight: 700;
+  font-size: 48px;
+  letter-spacing: -1px;
+  line-height: 1.333;
+  color: #FFFFFF;
+  margin: 0; /* Elimina márgenes */
+}
+
+.team-subtext {
+  text-align: right; /* Alinea el subtítulo a la derecha */
+  font-family: 'Plus Jakarta Sans';
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: -0.5px;
+  line-height: 1.4;
+  color: #8D9298;
+  margin: 0; /* Elimina márgenes */
+  flex-shrink: 0; /* Evita que el subtítulo se reduzca */
+  max-width: 30%; /* Limita el ancho máximo para controlar los saltos de línea */
+}
+
+.team-img-container {
+  display: flex;
+  column-gap: 0; /* Elimina el espacio horizontal entre las imágenes */
+  width: fit-content;
+  box-sizing: border-box;
+  transform: scale(1.0); /* Ajusta el tamaño del contenedor de imágenes */
+}
+
+.teamimg1{
+  width: 650px; /* Ajusta el tamaño de las imágenes */
+  height: auto; /* Mantiene la proporción de las imágenes */
+}
+
+.teamimg2, .teamimg3 {
+  width: 390px; /* Ajusta el tamaño de las imágenes */
+  height: auto; /* Mantiene la proporción de las imágenes */
+}
+
+.whyjoin-container {
+  margin-top: -100px !important; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 353px;
+  box-sizing: border-box;
+  padding: 20px;
+  color:#0C0C0C;
+  margin-bottom: 80px;
+}
+
+.whyjoin-title {
+  font-family: 'Plus Jakarta Sans';
+  font-weight: 600;
+  font-size: 64px;
+  letter-spacing: -1.9px;
+  line-height: 1.5;
+  color: #FFFFFF;
+  margin-bottom: 20px;
+}
+
+.whyjoin-subcontainer {
+  display: flex;
+  justify-content:space-between;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.whyjoin-subcontainer-item {
+  border-radius: 20px;
+  background: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  width: 346px;
+  height: 271px;
+  box-sizing: border-box;
+}
+
+.whyjoinimg {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 29px;
+}
+
+.whyjoinimg-subtitle {
+  margin-bottom: 16px;
+  font-family: 'Plus Jakarta Sans';
+  font-weight: 600;
+  font-size: 24px;
+  letter-spacing: -0.7px;
+  line-height: 1.3;
+  color: #010205;
+}
+
+.whyjoinimg-subtext {
+  text-align: center;
+  font-family: 'Manrope';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #878C91;
 }
